@@ -1,9 +1,10 @@
 <script setup>
-import { HeaderComp } from '@/components/'
+import { HeaderComp, HeroComp } from '@/components/'
 </script>
 
 <template>
   <HeaderComp />
+  <HeroComp />
   <main>
  </main>
 </template>

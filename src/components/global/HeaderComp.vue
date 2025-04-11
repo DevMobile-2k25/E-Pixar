@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { ShopCart, AccountIcon } from '../icons';
+</script>
 
 <template>
     <header>
@@ -17,8 +19,12 @@
             <div class="utils">
                 <input type="text">
                 <div class="buttons">
-                    <button>Login</button>
-                    <button>Register</button>
+                    <button>
+                        <ShopCart width="20" height="20" color="#000" />
+                    </button>
+                    <button>
+                        <AccountIcon width="20" height="20" color="#000" />
+                    </button>
                 </div>
             </div>
         </div>
@@ -78,13 +84,14 @@ input {
 }
 
 button {
-    border-radius: 15px;
     width: max-content;
     border: 2px solid #E5E7EB;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
     color: var(--secondary-color);
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
