@@ -36,7 +36,7 @@ defineProps({
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.405);
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;

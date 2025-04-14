@@ -25,7 +25,7 @@ const startCarousel = () => {
         setTimeout(() => {
             currentImageIndex.value = (currentImageIndex.value + 1) % images.length;
             isFading.value = false;
-        }, 500); // Tempo da transição
+        }, 500);
     }, 3000);
 };
 
