@@ -43,5 +43,6 @@ span {
 button {
     border: 0;
     background: transparent;
+    margin-right: .5rem ;
 }
 </style>

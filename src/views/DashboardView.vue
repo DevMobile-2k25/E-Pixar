@@ -1,10 +1,11 @@
 <script setup>
-import { HeaderSearchComp, CarouselComp } from '@/components';
+import { HeaderSearchComp, CarouselComp, HeroComp } from '@/components';
 </script>
 
 <template>
     <HeaderSearchComp />
     <CarouselComp />
+    <HeroComp />
 </template>
 
 <style scoped></style>
