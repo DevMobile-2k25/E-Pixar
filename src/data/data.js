@@ -71,5 +71,3 @@ export const filmsData = [
     year: 2006,
   },
 ]
-
-export const products = []
