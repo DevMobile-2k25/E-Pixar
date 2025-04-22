@@ -1,7 +1,10 @@
-<script setup></script>
+<script setup>
+import { HeaderSearchComp, CarouselComp } from '@/components';
+</script>
 
 <template>
-    <div>dash</div>
+    <HeaderSearchComp />
+    <CarouselComp />
 </template>
 
 <style scoped></style>
