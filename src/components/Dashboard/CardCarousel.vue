@@ -17,7 +17,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <router-link :style="{ backgroundImage: `url(${bg})` }" class="card-carousel" :to="route">
+    <router-link :style="{ backgroundImage: `url(${bg})` }" class="card-carousel" :to="`/film/${route}`">
         <img :src="logo" alt="Logo" />
     </router-link>
 </template>
