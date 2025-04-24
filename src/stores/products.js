@@ -13,7 +13,7 @@ export const useProductsStore = defineStore('products', () => {
   })
 
 const getProduct = (id) => {
-    const product = products.find((product) => product.id === id)
+    const product = products.find((product) => product.id == id)
     if (product) {
         state.selectedProduct = product
     } else {

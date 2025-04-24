@@ -1,8 +1,10 @@
 <script setup>
+import { HeaderProduct, ShowItem} from '@/components';
 </script>
 
 <template>
-    <div></div>
+    <HeaderProduct/>
+    <ShowItem/>
 </template>
 
 <style scoped></style>

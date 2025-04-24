@@ -1,11 +1,16 @@
 <script setup>
 import CardsProductComp from './CardsProductComp.vue';
 import { products } from '@/data/products';
+const getRandomizedSubset = (array) => {
+    return array.sort(() => Math.random() - 0.5).slice(0, 6);
+};
+
+const randomizedProducts = getRandomizedSubset(products);
 </script>
 
 <template>
     <div class="gridProducts">
-        <CardsProductComp v-for="(product, index) in products" :key="index" :product="product" />
+        <CardsProductComp v-for="(product, index) in randomizedProducts" :key="index" :product="product" />
     </div>
 </template>
 
