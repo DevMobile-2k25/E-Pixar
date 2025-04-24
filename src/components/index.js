@@ -9,5 +9,6 @@ import HeaderFilm from "./global/HeaderFilm.vue";
 import HeaderProduct from "./global/HeaderProduct.vue";
 import ShowItem from "./Dashboard/Products/ShowItem.vue";
 import NavbarComp from "./global/NavbarComp.vue";
+import GridFilmItens from "./Dashboard/Products/GridFilmItens.vue";
 
-export { PersonsComp, HeaderSearchComp, CarouselComp, HeroComp, CarrouselItens, GridProducts, HeroFilm, HeaderFilm, HeaderProduct, ShowItem, NavbarComp };
+export { PersonsComp, HeaderSearchComp, CarouselComp, HeroComp, CarrouselItens, GridProducts, HeroFilm, HeaderFilm, HeaderProduct, ShowItem, NavbarComp, GridFilmItens };
