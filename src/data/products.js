@@ -34,7 +34,6 @@ import meia_diver_tris from '@/data/images/products/meia_diver_tris.jpeg'
 import meia_diver_nojo from '@/data/images/products/meia_diver_nojo.jpeg'
 import meia_diver_alegria from '@/data/images/products/meia_diver_alegria.jpeg'
 
-
 export const products = [
   {
     id: 1,
@@ -172,22 +171,22 @@ export const products = [
     cover: meia_toy_woody,
     type: 'socks',
     variants: [
-        {
-            color: 'blue',
-            image: meia_toy_buzz,
-        },
-        {
-            color: 'brown',
-            image: meia_toy_woody,
-        },
-        {
-            color: 'green',
-            image: meia_toy_alien,
-        },
-        {
-            color: 'yellow',
-            image: meia_toy_random,
-        },
+      {
+        color: 'blue',
+        image: meia_toy_buzz,
+      },
+      {
+        color: 'brown',
+        image: meia_toy_woody,
+      },
+      {
+        color: 'green',
+        image: meia_toy_alien,
+      },
+      {
+        color: 'yellow',
+        image: meia_toy_random,
+      },
     ],
   },
   {
@@ -250,23 +249,150 @@ export const products = [
     cover: meia_diver_ans,
     type: 'socks',
     variants: [
-        {
-            color: 'blue',
-            image: meia_diver_ans,
-        },
-        {
-            color: 'green',
-            image: meia_diver_alegria,
-        },
-        {
-            color: 'yellow',
-            image: meia_diver_nojo,
-        },
-        {
-            color: 'pink',
-            image: meia_diver_tris,
-        },
+      {
+        color: 'blue',
+        image: meia_diver_ans,
+      },
+      {
+        color: 'green',
+        image: meia_diver_alegria,
+      },
+      {
+        color: 'yellow',
+        image: meia_diver_nojo,
+      },
+      {
+        color: 'pink',
+        image: meia_diver_tris,
+      },
     ],
-  }
-  
+  },
+  {
+    id: 11,
+    name: "Camiseta Mommy's Little Monster - Mike Wazowski",
+    price: '100',
+    description:
+      'Camiseta branca com estampa do Mike Wazowski e a frase "Mommy\'s Little Monster".',
+    cover:
+      'https://images.tcdn.com.br/img/img_prod/460977/camiseta_unissex_mommy_s_little_monster_monstrinho_da_mamae_mike_wazowski_monstros_s_a_branco_cd_118417_variacao_41333_1_dee1bfce24be8c9835bae2b00003d436.jpg',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://images.tcdn.com.br/img/img_prod/460977/camiseta_unissex_mommy_s_little_monster_monstrinho_da_mamae_mike_wazowski_monstros_s_a_branco_cd_118417_variacao_41333_1_dee1bfce24be8c9835bae2b00003d436.jpg',
+      },
+    ],
+  },
+  {
+    id: 12,
+    name: 'Camiseta Monsters University - Sulley e Mike',
+    price: '100',
+    description:
+      'Camiseta branca com estampa dos personagens Sulley e Mike da Universidade Monstros.',
+    cover:
+      'https://images.mont.ink/nmt/estampas/montink2.lojavirtualnuvem.com.br/Cinza-mescla_88349038.png',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://images.mont.ink/nmt/estampas/montink2.lojavirtualnuvem.com.br/Cinza-mescla_88349038.png',
+      },
+    ],
+  },
+  {
+    id: 13,
+    name: 'Camiseta Mike Monstros S.A.',
+    price: '100',
+    description: 'Camiseta verde com estampa do rosto do Mike Wazowski.',
+    cover: 'https://img.elo7.com.br/product/685x685/2A49069/camiseta-mike-monstros-sa.jpg',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image: 'https://img.elo7.com.br/product/685x685/2A49069/camiseta-mike-monstros-sa.jpg',
+      },
+    ],
+  },
+
+  {
+    id: 14,
+    name: "Camiseta Toy Story - You've Got a Friend in Me",
+    price: '100',
+    description:
+      'Camiseta preta com estampa dos personagens principais de Toy Story e a frase "You\'ve Got a Friend in Me".',
+    cover:
+      'https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91tw8UOSQ7L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX466_.png',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91tw8UOSQ7L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX466_.png',
+      },
+    ],
+  },
+  {
+    id: 15,
+    name: 'Camiseta Toy Story - Woody e Buzz',
+    price: '100',
+    description: 'Camiseta branca com estampa dos personagens Woody e Buzz Lightyear.',
+    cover: 'https://m.media-amazon.com/images/I/61a9qDfVNWL._AC_SX569_.jpg',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image: 'https://m.media-amazon.com/images/I/61a9qDfVNWL._AC_SX569_.jpg',
+      },
+    ],
+  },
+  {
+    id: 16,
+    name: 'Camiseta Toy Story - Família Aniversário',
+    price: '100',
+    description: 'Camiseta personalizada para festas de aniversário com tema Toy Story.',
+    cover: 'https://i.etsystatic.com/27001965/r/il/b064f5/4712312624/il_794xN.4712312624_d69m.jpg',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://i.etsystatic.com/27001965/r/il/b064f5/4712312624/il_794xN.4712312624_d69m.jpg',
+      },
+    ],
+  },
+
+  {
+    id: 17,
+    name: 'Camiseta Disney Pixar WALL-E Movie Logo',
+    price: '100',
+    description: 'Camiseta com estampa do logo do filme WALL-E da Disney Pixar.',
+    cover:
+      'https://m.media-amazon.com/images/I/A1dbsmzbGeL._CLa%7C2140%2C2000%7C51s6y-8LuML.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX466_.png',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://m.media-amazon.com/images/I/A1dbsmzbGeL._CLa%7C2140%2C2000%7C51s6y-8LuML.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX466_.png',
+      },
+    ],
+  },
+  {
+    id: 19,
+    name: 'Camiseta WALL-E Robot',
+    price: '100',
+    description: 'Camiseta com estampa do robô WALL-E.',
+    cover:
+      'https://i.etsystatic.com/28201698/c/1612/1282/186/0/il/602090/3104899100/il_680x540.3104899100_2nsq.jpg',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://i.etsystatic.com/28201698/c/1612/1282/186/0/il/602090/3104899100/il_680x540.3104899100_2nsq.jpg',
+      },
+    ],
+  },
 ]
