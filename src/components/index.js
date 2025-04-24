@@ -8,5 +8,6 @@ import HeroFilm from "./Films/HeroFilm.vue";
 import HeaderFilm from "./global/HeaderFilm.vue";
 import HeaderProduct from "./global/HeaderProduct.vue";
 import ShowItem from "./Dashboard/Products/ShowItem.vue";
+import NavbarComp from "./global/NavbarComp.vue";
 
-export { PersonsComp, HeaderSearchComp, CarouselComp, HeroComp, CarrouselItens, GridProducts, HeroFilm, HeaderFilm, HeaderProduct, ShowItem };
+export { PersonsComp, HeaderSearchComp, CarouselComp, HeroComp, CarrouselItens, GridProducts, HeroFilm, HeaderFilm, HeaderProduct, ShowItem, NavbarComp };
