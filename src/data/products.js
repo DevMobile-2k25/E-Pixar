@@ -495,4 +495,21 @@ export const products = [
     ],
     filmId: 4
   },
+  {
+    id: 25,
+    name: 'Pixar Inside Out Yearbook T-Shirt - BLACK',
+    price: '100',
+    description: 'Camisa estampada Divertidamente - Emotional Adventures preto.',
+    cover:
+      'https://cdn.media.amplience.net/s/hottopic/13718174_hi?$productMainDesktop$',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'black',
+        image:
+          'https://cdn.media.amplience.net/s/hottopic/13718174_hi?$productMainDesktop$',
+      },
+    ],
+    filmId: 4
+  },
 ];
