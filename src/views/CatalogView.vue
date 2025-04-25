@@ -1,11 +1,11 @@
 <script setup>
-import { HeaderProduct, CartComp } from '@/components';
+import { HeaderProduct, CatalogComp } from '@/components';
 </script>
 
 <template>
     <HeaderProduct/>
-    <CartComp/>
-    <div></div>
+    <CatalogComp/>
+    
 </template>
 
 <style scoped>

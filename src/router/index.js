@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { OneBoardView, DashboardView, ProductView, FilmView } from '@/views'
+import { OneBoardView, DashboardView, ProductView, FilmView, CartView, FavoritesView, CatalogView } from '@/views'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +26,21 @@ const router = createRouter({
       component: FilmView,
       params: true,
     },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: CartView,
+    },
+    {
+      path: '/likes',
+      name: 'favorites',
+      component: FavoritesView,
+    },
+    {
+      path: '/catalog',
+      name: 'catalog',
+      component: CatalogView,
+    }
   ],
 })
 

@@ -9,11 +9,11 @@ import AccountCircle from "vue-material-design-icons/AccountCircle.vue";
 const store = useProductsStore();
 
 const icons = [     
-    { name: "Home", icon: Home, route: "/" },
+    { name: "Home", icon: Home, route: "/dashboard" },
     { name: "Menu", icon: Menu, route: "/catalog" },
     { name: "Cart", icon: Cart, route: "/cart" },
     { name: "Like", icon: Heart, route: "/likes" },
-    { name: "Profile", icon: AccountCircle, route: "/profile" },
+    { name: "Profile", icon: AccountCircle, route: "/" },
 ];
 </script>
 
