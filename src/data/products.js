@@ -379,7 +379,7 @@ export const products = [
     filmId: 4
   },
   {
-    id: 19,
+    id: 18,
     name: "Camiseta WALL-E Robot",
     price: "100",
     description: "Camiseta com estampa do robô WALL-E.",
@@ -392,5 +392,124 @@ export const products = [
       }
     ],
     filmId: 4
-  }
+  },
+  {
+    id: 19,
+    name: 'Figura Pixar Monstros SA Randal',
+    price: '100',
+    description: 'Figura de ação Monstros SA, personagem Randall.',
+    cover:
+      'https://th.bing.com/th/id/OIP.j6KW4yvuboEjrX9vVPuxxQHaFj?w=242&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    type: 'toy',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://th.bing.com/th/id/OIP.j6KW4yvuboEjrX9vVPuxxQHaFj?w=242&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+      },
+    ],
+    filmId: 3
+  },
+  {
+    id: 20,
+    name: 'Toy Story 4 Disney Pixar Figuras Com Acessórios De Filme Woody',
+    price: '100',
+    description: 'Figura de ação Toy Story 4, personagem Woody com acessórios.',
+    cover:
+      'https://th.bing.com/th/id/OIP.RumO1qmInNtAEFqjFoW0jAHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    type: 'toy',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://th.bing.com/th/id/OIP.RumO1qmInNtAEFqjFoW0jAHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+      },
+    ],
+    filmId: 6
+  },
+  {
+    id: 21,
+    name: 'Sapato Crocks Carros Relâmpago Mcqueen',
+    price: '100',
+    description: 'Sapato Crocks do filme carros do relampago Mcqueen.',
+    cover:
+      'https://ae-pic-a1.aliexpress-media.com/kf/S89310556f61141a2b41ebe8abec479dfc.jpg_960x960q75.jpg_.avif',
+    type: 'shoe',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://ae-pic-a1.aliexpress-media.com/kf/S89310556f61141a2b41ebe8abec479dfc.jpg_960x960q75.jpg_.avif',
+      },
+    ],
+    filmId: 8
+  },
+  {
+    id: 22,
+    name: 'Pixar Turning Red Deluxe Figure Play Set : Toys & Games',
+    price: '100',
+    description: 'Figuras Pixar Turning Red.',
+    cover:
+      'https://th.bing.com/th/id/OIP.GhvihnlnF1kO7hwaaoaCpAHaHa?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    type: 'toy',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://th.bing.com/th/id/OIP.GhvihnlnF1kO7hwaaoaCpAHaHa?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+      },
+    ],
+    filmId: 1
+  },
+  {
+    id: 23,
+    name: 'Camiseta de Pixar Turning Red RPG Red Panda Girl Mei',
+    price: '100',
+    description: 'Camiseta com estampa da Mei, Turning Red.',
+    cover:
+      'https://th.bing.com/th/id/OIP.zXK0bUDj6eHZlniqenQ4BwHaHh?w=204&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'black',
+        image:
+          'https://th.bing.com/th/id/OIP.zXK0bUDj6eHZlniqenQ4BwHaHh?w=204&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+      },
+    ],
+    filmId: 1
+  },
+  {
+    id: 24,
+    name: 'Pixar Up figure',
+    price: '100',
+    description: 'Figura da Pixar UP - Altas aventuras.',
+    cover:
+      'https://th.bing.com/th/id/OIP.NsiZdppmbVd5DAdozmMREAHaIK?rs=1&pid=ImgDetMain',
+    type: 'toy',
+    variants: [
+      {
+        color: 'white',
+        image:
+          'https://th.bing.com/th/id/OIP.NsiZdppmbVd5DAdozmMREAHaIK?rs=1&pid=ImgDetMain',
+      },
+    ],
+    filmId: 2
+  },
+  {
+    id: 25,
+    name: 'Pixar Inside Out Yearbook T-Shirt - BLACK',
+    price: '100',
+    description: 'Camisa estampada Divertidamente - Emotional Adventures preto.',
+    cover:
+      'https://cdn.media.amplience.net/s/hottopic/13718174_hi?$productMainDesktop$',
+    type: 't-shirt',
+    variants: [
+      {
+        color: 'black',
+        image:
+          'https://cdn.media.amplience.net/s/hottopic/13718174_hi?$productMainDesktop$',
+      },
+    ],
+    filmId: 5
+  },
 ];
