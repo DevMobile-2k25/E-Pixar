@@ -1,9 +1,12 @@
 <script setup>
+import { useProductsStore } from "@/stores/products";
 import Home from "vue-material-design-icons/Home.vue";
 import Menu from "vue-material-design-icons/Menu.vue";
 import Cart from "vue-material-design-icons/Cart.vue";
 import Heart from "vue-material-design-icons/Heart.vue";
 import AccountCircle from "vue-material-design-icons/AccountCircle.vue";
+
+const store = useProductsStore();
 
 const icons = [     
     { name: "Home", icon: Home, route: "/" },
@@ -24,6 +27,9 @@ const icons = [
             :title="item.name"
         >
             <component :is="item.icon" size="24" />
+            <span v-if="item.name === 'Cart' && store.cart.length" class="badge">
+                {{ store.cart.length }}
+            </span>
         </router-link>
     </nav>
 </template>
@@ -52,9 +58,22 @@ const icons = [
     transition: transform 0.2s;
     text-decoration: none;
     color: inherit;
+    position: relative;
 }
 
 .nav-icon:hover {
     transform: scale(1.2);
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
 }
 </style>
