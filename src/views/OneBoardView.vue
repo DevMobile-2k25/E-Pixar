@@ -38,6 +38,7 @@ function navigateToRoute() {
     height: auto;
     max-width: 200px;
     max-height: 200px;
+    margin-bottom: 40px;
     object-fit: contain;
     z-index: 10;
 }

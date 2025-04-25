@@ -19,9 +19,9 @@
 }
 
 .monster {
-    position: absolute;
+    position: fixed;
     top: 45%;
-    right: 0;
+    right: -3%;
     width: 50%;
 }
 
