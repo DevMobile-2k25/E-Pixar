@@ -2,5 +2,6 @@ import OneBoardView from './OneBoardView.vue'
 import DashboardView from './DashboardView.vue'
 import ProductView from './ProductView.vue'
 import FilmView from './FilmView.vue'
+import CartView from './CartView.vue'
 
-export { OneBoardView, DashboardView, ProductView, FilmView }
+export { OneBoardView, DashboardView, ProductView, FilmView, CartView }

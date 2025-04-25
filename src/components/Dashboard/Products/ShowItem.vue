@@ -2,6 +2,7 @@
 import router from '@/router';
 import { useProductsStore } from '@/stores/products';
 import { onMounted, ref, computed } from 'vue';
+import Cart from 'vue-material-design-icons/Cart.vue';
 
 const store = useProductsStore();
 const currentImage = ref(null);
@@ -60,6 +61,10 @@ const selectImage = (img) => {
                     @mouseleave="clearHover" @click="selectImage(variant.image)"></div>
             </div>
         </div>
+        <button class="addToCart" @click="store.addToCart(store.state.selectedProduct)">
+            <Cart class="icon" :size="20" />
+            <span>Add</span>
+        </button>
     </section>
 </template>
 
@@ -70,6 +75,31 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addToCart {
+    width: 30%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    position: fixed;
+    top: 87%;
+    right: 3%;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    ;
 }
 
 .photo {
