@@ -52,7 +52,8 @@ export const products = [
         image: camisa_sa_branca
       }
     ],
-    filmId: 3
+    filmId: 3,
+    quantity: 10
   },
   {
     id: 2,
@@ -75,7 +76,8 @@ export const products = [
         image: camisa_buzz
       }
     ],
-    filmId: 6
+    filmId: 6,
+    quantity: 15
   },
   {
     id: 3,
@@ -98,7 +100,8 @@ export const products = [
         image: camisa_mike
       }
     ],
-    filmId: 3
+    filmId: 3,
+    quantity: 8
   },
   {
     id: 4,
@@ -117,7 +120,8 @@ export const products = [
         image: tiara_rato2
       }
     ],
-    filmId: 7
+    filmId: 7,
+    quantity: 20
   },
   {
     id: 5,
@@ -140,7 +144,8 @@ export const products = [
         image: bone_mqueen_beje
       }
     ],
-    filmId: 8
+    filmId: 8,
+    quantity: 12
   },
   {
     id: 6,
@@ -163,7 +168,8 @@ export const products = [
         image: tiara_toy_alien
       }
     ],
-    filmId: 6
+    filmId: 6,
+    quantity: 18
   },
   {
     id: 7,
@@ -190,7 +196,8 @@ export const products = [
         image: meia_toy_random
       }
     ],
-    filmId: 6
+    filmId: 6,
+    quantity: 25
   },
   {
     id: 8,
@@ -213,7 +220,8 @@ export const products = [
         image: bone_sa_sulley
       }
     ],
-    filmId: 3
+    filmId: 3,
+    quantity: 10
   },
   {
     id: 9,
@@ -244,7 +252,8 @@ export const products = [
         image: camisa_wall_green
       }
     ],
-    filmId: 4
+    filmId: 4,
+    quantity: 15
   },
   {
     id: 10,
@@ -271,7 +280,8 @@ export const products = [
         image: meia_diver_tris
       }
     ],
-    filmId: 5
+    filmId: 5,
+    quantity: 20
   },
   {
     id: 11,
@@ -286,7 +296,8 @@ export const products = [
         image: "https://images.tcdn.com.br/img/img_prod/460977/camiseta_unissex_mommy_s_little_monster_monstrinho_da_mamae_mike_wazowski_monstros_s_a_branco_cd_118417_variacao_41333_1_dee1bfce24be8c9835bae2b00003d436.jpg"
       }
     ],
-    filmId: 3
+    filmId: 3,
+    quantity: 12
   },
   {
     id: 12,
@@ -301,7 +312,8 @@ export const products = [
         image: "https://images.mont.ink/nmt/estampas/montink2.lojavirtualnuvem.com.br/Cinza-mescla_88349038.png"
       }
     ],
-    filmId: 3
+    filmId: 3,
+    quantity: 10
   },
   {
     id: 13,
@@ -316,7 +328,8 @@ export const products = [
         image: "https://img.elo7.com.br/product/685x685/2A49069/camiseta-mike-monstros-sa.jpg"
       }
     ],
-    filmId: 3
+    filmId: 3,
+    quantity: 8
   },
   {
     id: 14,
@@ -331,7 +344,8 @@ export const products = [
         image: "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140,2000%7C91tw8UOSQ7L.png%7C0,0,2140,2000+0.0,0.0,2140.0,2000.0_AC_SX466_.png"
       }
     ],
-    filmId: 6
+    filmId: 6,
+    quantity: 15
   },
   {
     id: 15,
@@ -346,7 +360,8 @@ export const products = [
         image: "https://m.media-amazon.com/images/I/61a9qDfVNWL._AC_SX569_.jpg"
       }
     ],
-    filmId: 6
+    filmId: 6,
+    quantity: 20
   },
   {
     id: 16,
@@ -361,7 +376,8 @@ export const products = [
         image: "https://i.etsystatic.com/27001965/r/il/b064f5/4712312624/il_794xN.4712312624_d69m.jpg"
       }
     ],
-    filmId: 6
+    filmId: 6,
+    quantity: 10
   },
   {
     id: 17,
@@ -376,7 +392,8 @@ export const products = [
         image: "https://m.media-amazon.com/images/I/A1dbsmzbGeL._CLa%7C2140,2000%7C51s6y-8LuML.png%7C0,0,2140,2000+0.0,0.0,2140.0,2000.0_AC_SX466_.png"
       }
     ],
-    filmId: 4
+    filmId: 4,
+    quantity: 12
   },
   {
     id: 18,
@@ -391,7 +408,8 @@ export const products = [
         image: "https://i.etsystatic.com/28201698/c/1612/1282/186/0/il/602090/3104899100/il_680x540.3104899100_2nsq.jpg"
       }
     ],
-    filmId: 4
+    filmId: 4,
+    quantity: 8
   },
   {
     id: 19,
@@ -408,7 +426,8 @@ export const products = [
           'https://th.bing.com/th/id/OIP.j6KW4yvuboEjrX9vVPuxxQHaFj?w=242&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       },
     ],
-    filmId: 3
+    filmId: 3,
+    quantity: 5
   },
   {
     id: 20,
@@ -425,7 +444,8 @@ export const products = [
           'https://th.bing.com/th/id/OIP.RumO1qmInNtAEFqjFoW0jAHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       },
     ],
-    filmId: 6
+    filmId: 6,
+    quantity: 7
   },
   {
     id: 21,
@@ -442,7 +462,8 @@ export const products = [
           'https://ae-pic-a1.aliexpress-media.com/kf/S89310556f61141a2b41ebe8abec479dfc.jpg_960x960q75.jpg_.avif',
       },
     ],
-    filmId: 8
+    filmId: 8,
+    quantity: 10
   },
   {
     id: 22,
@@ -459,7 +480,8 @@ export const products = [
           'https://th.bing.com/th/id/OIP.GhvihnlnF1kO7hwaaoaCpAHaHa?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       },
     ],
-    filmId: 1
+    filmId: 1,
+    quantity: 8
   },
   {
     id: 23,
@@ -476,7 +498,8 @@ export const products = [
           'https://th.bing.com/th/id/OIP.zXK0bUDj6eHZlniqenQ4BwHaHh?w=204&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       },
     ],
-    filmId: 1
+    filmId: 1,
+    quantity: 15
   },
   {
     id: 24,
@@ -493,7 +516,8 @@ export const products = [
           'https://th.bing.com/th/id/OIP.NsiZdppmbVd5DAdozmMREAHaIK?rs=1&pid=ImgDetMain',
       },
     ],
-    filmId: 2
+    filmId: 2,
+    quantity: 6
   },
   {
     id: 25,
@@ -510,6 +534,7 @@ export const products = [
           'https://cdn.media.amplience.net/s/hottopic/13718174_hi?$productMainDesktop$',
       },
     ],
-    filmId: 5
+    filmId: 5,
+    quantity: 12
   },
 ];

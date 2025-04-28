@@ -96,6 +96,10 @@ const addToCart = () => {
             <h3>Product Description</h3>
             <p>{{ store.state.selectedProduct?.description }}</p>
         </div>
+        <div class="description">
+            <h3>Quantidade Em Estoque:</h3>
+            <p>{{ store.state.selectedProduct?.quantity }}</p>
+        </div>
 
         <div class="variants">
             <p>Colors:</p>
